@@ -747,7 +747,7 @@ catch(err) {
 });
 
 if (!runningTests) {
-  require("shopping-app/app")["default"].create({"name":"shopping-app","version":"0.0.0+d291ecf1"});
+  require("shopping-app/app")["default"].create({"name":"shopping-app","version":"0.0.0+15d326c0"});
 }
 
 /* jshint ignore:end */
