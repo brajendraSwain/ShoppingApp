@@ -1,0 +1,11 @@
+<div class="container app">
+	<div class="container-fluid header">
+		<ul class="nav nav-tabs nav-justified">
+			<li role="presentation" {{bind-attr class="isHomeActive:active"}}><a href="#" {{action 'homeBtnClicked'}}>Home</a></li>
+			<li role="presentation" {{bind-attr class="isProfileActive:active"}}><a href="/prof" {{action 'profileBtnClicked'}}>Profile</a></li>
+			<li role="presentation" {{bind-attr class="isPromoteActive:active"}}><a href="/prom" {{action 'promoteBtnClicked'}}>Promote</a></li>
+		</ul>
+	</div>
+</div>
+
+{{outlet}}
